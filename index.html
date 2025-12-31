@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2026 for Muqaddas</title>
+    <title>2026 for My Princess Muqaddas</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
@@ -95,9 +95,8 @@
             box-shadow: 0 15px 40px rgba(0,0,0,0.2);
         }
         
-        /* Style for when a song is playing */
         .song-playing {
-            border-color: #ef4444; /* Red border */
+            border-color: #ef4444;
             box-shadow: 0 0 20px rgba(239, 68, 68, 0.6);
             transform: scale(1.05);
         }
@@ -112,6 +111,13 @@
             transform: scale(1.1);
             background: #ffe4e6;
         }
+
+        .sunflower-glow {
+            box-shadow: 0 0 40px rgba(255, 215, 0, 0.6);
+            animation: spin 20s linear infinite;
+        }
+        @keyframes spin { 100% { transform: rotate(360deg); } }
+
     </style>
 </head>
 <body>
@@ -120,7 +126,7 @@
         <div class="animate__animated animate__fadeIn">
             <h2 class="text-xl tracking-widest uppercase opacity-70 animate__animated animate__fadeInDown">Happy New Year!</h2>
             <h1 class="text-8xl font-bold my-4 text-yellow-200 animate__animated animate__zoomIn">2026</h1>
-            <p class="italic text-gray-400 animate__animated animate__fadeInUp">See what I made for you, Muqaddas</p>
+            <p class="italic text-gray-400 animate__animated animate__fadeInUp">See what I made for you, My Princess Muqaddas</p>
         </div>
         
         <button onclick="nextSection('greeting')" class="mt-12 px-10 py-3 border-2 border-yellow-200 text-yellow-200 rounded-full hover:bg-yellow-200 hover:text-black transition-all duration-500 font-bold pulse-glow">
@@ -133,8 +139,8 @@
             <div class="relative">
                 <img src="https://media.tenor.com/2ro_S9_o_mIAAAAi/cat-santa-hat.gif" class="w-28 h-28 mx-auto rounded-full border-4 border-white shadow-xl -mt-20 floating">
             </div>
-            <h2 class="text-red-500 font-handwritten text-4xl mt-6 rubber-band">Happy New Year, Muqaddas!</h2>
-            <p class="mt-4 text-gray-600 leading-relaxed">Thanks for being part of my 2025. You made it special. Now, let’s make 2026 even better!</p>
+            <h2 class="text-red-500 font-handwritten text-4xl mt-6 rubber-band">Happy New Year, My Love Muqaddas!</h2>
+            <p class="mt-4 text-gray-600 leading-relaxed">Thanks for being part of my 2025. You made it special. Now, let’s make 2026 even better, just for you, my princess.</p>
             
             <div class="mt-8 pt-6 border-t border-dashed border-gray-200">
                 <button onclick="nextSection('bucketlist')" class="text-orange-500 font-bold hover:scale-110 transition-transform">
@@ -146,16 +152,16 @@
 
     <section id="bucketlist" class="hidden min-h-screen flex flex-col items-center justify-center p-8 bg-[#fdf6e3]">
         <h2 class="font-handwritten text-5xl text-gray-800 mb-2 animate__animated animate__rubberBand">Goals for 2026</h2>
-        <p class="text-gray-400 mb-10 italic">A new chapter for Muqaddas...</p>
+        <p class="text-gray-400 mb-10 italic">A new chapter for My Love Muqaddas...</p>
         
         <div class="space-y-4 w-full max-w-md">
             <div class="flex items-center p-4 bg-white rounded-2xl shadow-sm border-l-8 border-red-400 animate__animated animate__fadeInLeft">
                 <input type="checkbox" class="w-6 h-6 accent-red-500">
                 <span class="ml-4 text-gray-700 font-medium">🌍 Travel to other cities</span>
             </div>
-            <div class="flex items-center p-4 bg-white rounded-2xl shadow-sm border-l-8 border-blue-400 animate__animated animate__fadeInLeft" style="animation-delay: 0.2s">
-                <input type="checkbox" class="w-6 h-6 accent-blue-500">
-                <span class="ml-4 text-gray-700 font-medium">📚 Read 12 new books</span>
+            <div class="flex items-center p-4 bg-white rounded-2xl shadow-sm border-l-8 border-pink-500 animate__animated animate__fadeInLeft" style="animation-delay: 0.2s">
+                <input type="checkbox" class="w-6 h-6 accent-pink-500">
+                <span class="ml-4 text-gray-700 font-bold text-pink-600">💖 Love me even more</span>
             </div>
             <div class="flex items-center p-4 bg-white rounded-2xl shadow-sm border-l-8 border-green-400 animate__animated animate__fadeInLeft" style="animation-delay: 0.4s">
                 <input type="checkbox" class="w-6 h-6 accent-green-500">
@@ -226,7 +232,7 @@
     </section>
 
     <section id="vibes" class="hidden min-h-screen flex flex-col items-center justify-center p-8 bg-[#fdf6e3]">
-        <h2 class="font-handwritten text-4xl text-red-500 mb-2 animate__animated animate__rubberBand">Dedicated to Muqaddas</h2>
+        <h2 class="font-handwritten text-4xl text-red-500 mb-2 animate__animated animate__rubberBand">Dedicated to My Princess Muqaddas</h2>
         <h3 class="text-xl font-medium text-gray-700 mb-10">Click to Play Our Songs 🎵</h3>
         
         <div class="space-y-6 w-full max-w-xs">
@@ -271,10 +277,21 @@
         </button>
     </section>
 
-    <section id="final" class="hidden min-h-screen flex flex-col items-center justify-center p-6 bg-black text-white text-center">
-        <h1 class="font-handwritten text-6xl text-yellow-400 mb-6 animate__animated animate__zoomIn">Have a blast, Muqaddas!</h1>
-        <p class="text-xl text-gray-300 max-w-lg mx-auto leading-relaxed">May 2026 bring you everything you've ever wished for. You got this!</p>
-        <button onclick="location.reload()" class="mt-10 text-sm text-gray-500 hover:text-white underline">Replay</button>
+    <section id="final" class="hidden min-h-screen flex flex-col items-center justify-center p-6 bg-black text-white text-center relative overflow-hidden">
+        
+        <div class="relative mb-8 animate__animated animate__zoomIn" style="animation-duration: 2s;">
+            <img src="https://images.unsplash.com/photo-1477414348463-c0eb7f1359b6?q=80&w=2070&auto=format&fit=crop" 
+                 class="w-56 h-56 object-cover rounded-full border-4 border-yellow-400 sunflower-glow">
+        </div>
+
+        <h1 class="font-handwritten text-6xl text-yellow-400 mb-6 animate__animated animate__fadeInDown">Have a blast, My Love Muqaddas!</h1>
+        
+        <p class="text-lg text-gray-200 max-w-2xl mx-auto leading-relaxed animate__animated animate__fadeInUp" style="animation-delay: 0.5s;">
+            My Princess Muqaddas, as we step into 2026, I want you to know how incredibly special you are to me. May this coming year be filled with endless laughter, success in every step you take, and moments that take your breath away. You are the light of my life, as bright and beautiful as a sunflower. I am so lucky to have you. <br><br>
+            <span class="text-yellow-300 font-bold">I love you endlessly! ❤️</span>
+        </p>
+
+        <button onclick="location.reload()" class="mt-12 text-sm text-gray-500 hover:text-white underline z-50 relative">Replay Journey</button>
     </section>
 
     <script>
@@ -292,19 +309,19 @@
                 targetSection.classList.remove('hidden');
                 window.scrollTo(0,0); // Scroll to top
 
-                // Trigger confetti if entering specific sections
-                if(sectionId === 'greeting' || sectionId === 'final') {
+                // Trigger effects based on section
+                if(sectionId === 'greeting') {
                     triggerConfetti();
+                }
+                if(sectionId === 'final') {
+                    triggerFireworks();
                 }
             }
         }
 
         // 2. Wish Bubble Logic
         function popWish(element) {
-            // Shrink effect
             element.style.transform = "scale(0)";
-            
-            // Wait for shrink to finish, then hide and pop confetti
             setTimeout(() => {
                 element.style.display = "none";
                 confetti({
@@ -323,7 +340,6 @@
             const audio = document.getElementById(audioId);
             const card = document.getElementById(cardId);
 
-            // If clicked same song playing, pause it
             if (currentAudio === audio && !audio.paused) {
                 audio.pause();
                 card.classList.remove('song-playing');
@@ -332,16 +348,14 @@
                 return;
             }
 
-            // Stop previously playing song
             if (currentAudio) {
                 currentAudio.pause();
-                currentAudio.currentTime = 0; // Reset
+                currentAudio.currentTime = 0; 
                 if(currentCard) currentCard.classList.remove('song-playing');
             }
 
-            // Play new song
             audio.play().catch(error => {
-                console.log("Audio file not found or autoplay blocked. Make sure MP3 is in folder.");
+                console.log("Audio file not found or autoplay blocked.");
                 alert("Please make sure the MP3 file '" + audio.getAttribute('src') + "' is uploaded to your folder!");
             });
             
@@ -350,9 +364,24 @@
             currentCard = card;
         }
 
-        // 4. Confetti Effect Logic
+        // 4. Confetti Effect (Simple)
         function triggerConfetti() {
             var duration = 3 * 1000;
+            var animationEnd = Date.now() + duration;
+            var defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 };
+
+            var interval = setInterval(function() {
+                var timeLeft = animationEnd - Date.now();
+                if (timeLeft <= 0) return clearInterval(interval);
+                var particleCount = 50 * (timeLeft / duration);
+                confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 } }));
+                confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 } }));
+            }, 250);
+        }
+
+        // 5. Fireworks Effect (Complex)
+        function triggerFireworks() {
+            var duration = 15 * 1000;
             var animationEnd = Date.now() + duration;
             var defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 };
 
@@ -364,10 +393,34 @@
                 }
 
                 var particleCount = 50 * (timeLeft / duration);
-                // Random bursts
-                confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 } }));
-                confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 } }));
-            }, 250);
+                
+                // Fire from left, right, and center for fireworks effect
+                confetti({
+                    particleCount: 5,
+                    angle: 60,
+                    spread: 55,
+                    origin: { x: 0 },
+                    colors: ['#ff0000', '#ffa500', '#ffff00']
+                });
+                confetti({
+                    particleCount: 5,
+                    angle: 120,
+                    spread: 55,
+                    origin: { x: 1 },
+                    colors: ['#00ff00', '#0000ff', '#4b0082']
+                });
+                
+                // Random bursts in the middle
+                if(Math.random() > 0.7) {
+                    confetti({
+                        particleCount: 30,
+                        spread: 100,
+                        origin: { x: Math.random(), y: Math.random() - 0.2 },
+                        gravity: 0.8,
+                        scalar: 1.2
+                    });
+                }
+            }, 200);
         }
 
         function randomInRange(min, max) {
